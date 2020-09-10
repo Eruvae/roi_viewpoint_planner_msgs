@@ -7,7 +7,7 @@ project(roi_viewpoint_planner_msgs)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS dynamic_reconfigure message_generation)
+find_package(catkin REQUIRED COMPONENTS dynamic_reconfigure geometry_msgs message_generation)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -46,12 +46,15 @@ add_message_files(
    FILES
    PlannerState.msg
    PlanningTimes.msg
+   Viewpoint.msg
+   ViewpointList.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
    FILES
    ChangePlannerMode.srv
+   SaveOctomap.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -63,8 +66,8 @@ add_service_files(
 
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
-#   DEPENDENCIES
-#   std_msgs  # Or other packages containing msgs
+   DEPENDENCIES
+   geometry_msgs  # Or other packages containing msgs
 )
 
 ################################################
