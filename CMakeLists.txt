@@ -54,6 +54,7 @@ add_message_files(
 add_service_files(
    FILES
    ChangePlannerMode.srv
+   LoadOctomap.srv
    SaveOctomap.srv
 )
 
