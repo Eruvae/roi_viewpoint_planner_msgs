@@ -53,8 +53,8 @@ add_message_files(
 ## Generate services in the 'srv' folder
 add_service_files(
    FILES
-   ChangePlannerMode.srv
    LoadOctomap.srv
+   MoveToState.srv
    SaveOctomap.srv
 )
 
