@@ -1,3 +1,6 @@
+bool specify_filename
+bool name_is_prefix
+string name
 ---
 bool success
 string filename
