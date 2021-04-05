@@ -56,6 +56,7 @@ add_service_files(
    LoadOctomap.srv
    MoveToState.srv
    SaveOctomap.srv
+   StartEvaluator.srv
 )
 
 ## Generate actions in the 'action' folder
