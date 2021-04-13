@@ -1,3 +1,4 @@
-int64 numEvals
+uint64 numEvals
+float64 episodeDuration
 ---
 bool success
