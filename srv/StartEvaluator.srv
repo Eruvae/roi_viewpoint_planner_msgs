@@ -1,4 +1,10 @@
-uint64 numEvals
-float64 episodeDuration
+uint8 EPEND_TIME=0
+uint8 EPEND_PLAN_DURATION=1
+uint8 EPEND_PLAN_LENGTH=2
+
+uint64 num_evals
+
+uint8 episode_end_param
+float64 episode_duration  # in seconds for EPEND_TIME/EPEND_PLAN_DURATION, in rad/m for EPEND_PLAN_LENGTH
 ---
 bool success
