@@ -1,0 +1,4 @@
+std_msgs/Time min_time
+---
+geometry_msgs/Pose gradient
+float32 delta
