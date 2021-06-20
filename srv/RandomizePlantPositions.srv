@@ -1,0 +1,5 @@
+geometry_msgs/Point min_point
+geometry_msgs/Point max_point
+float64 min_dist
+---
+bool success

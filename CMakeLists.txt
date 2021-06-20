@@ -56,6 +56,7 @@ add_service_files(
    GetGradient.srv
    LoadOctomap.srv
    MoveToState.srv
+   RandomizePlantPositions.srv
    SaveOctomap.srv
    StartEvaluator.srv
 )
