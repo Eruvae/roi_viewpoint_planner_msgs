@@ -1,4 +1,3 @@
-float64[] joint_values
 bool async
 ---
 bool success

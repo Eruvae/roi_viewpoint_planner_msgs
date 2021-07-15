@@ -57,6 +57,7 @@ add_service_files(
    LoadOctomap.srv
    MoveToState.srv
    RandomizePlantPositions.srv
+   ResetPlanner.srv
    SaveOctomap.srv
    StartEvaluator.srv
 )
