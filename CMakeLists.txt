@@ -60,6 +60,7 @@ add_service_files(
    ResetPlanner.srv
    SaveOctomap.srv
    StartEvaluator.srv
+   SaveCurrentRobotState.srv
 )
 
 ## Generate actions in the 'action' folder
