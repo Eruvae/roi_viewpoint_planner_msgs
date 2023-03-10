@@ -58,6 +58,7 @@ add_service_files(
    MoveToState.srv
    RandomizePlantPositions.srv
    ResetPlanner.srv
+   SaveEvaluatorData.srv
    SaveOctomap.srv
    StartEvaluator.srv
    SaveCurrentRobotState.srv

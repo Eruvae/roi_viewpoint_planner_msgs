@@ -1,0 +1,4 @@
+float64 plan_length
+float64 traj_duration
+---
+bool success
