@@ -100,6 +100,7 @@ generate_dynamic_reconfigure_options(
     cfg/Planner.cfg
     cfg/Evaluator.cfg
     cfg/Vmp.cfg
+    cfg/Svp.cfg
 )
 
 ###################################
